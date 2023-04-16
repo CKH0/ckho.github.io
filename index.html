@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+		body {
+			background: url("https://raw.githubusercontent.com/CKH0/ckho.github.io/main/105369093_p0.jpg") no-repeat center center fixed;
+			background-size: cover;
+		}
+		.bg-blur {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(255, 255, 255, 0.5);
+			filter: blur(5px);
+		}
+		.container {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			color: white;
+			font-size: 2rem;
+			font-family: sans-serif;
+			text-align: center;
+			text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+			z-index: 1;
+		}
+		.icon {
+			display: block;
+			width: 200px;
+			height: 200px;
+			background: url("https://github.com/CKH0/ckho.github.io/blob/main/15298533.png?raw=true") no-repeat center center;
+			background-size: cover;
+			border-radius: 50%;
+			margin-bottom: 1rem;
+			box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+		}
+		.textbox {
+			max-width: 80%;
+			margin: 0 auto;
+		}
+		.textbox h2 {
+			font-size: 3rem;
+			margin-bottom: 1rem;
+			color: rgb(0, 179, 255);
+		}
+		.textbox p {
+			font-size: 1.5rem;
+			line-height: 1.5;
+			color: rgb(0, 0, 0);
+		}
+	</style>
+</head>
+<body>
+	<div class="bg-blur"></div>
+	<div class="container">
+		<div class="icon"></div>
+		<div class="textbox">
+            <h2>Welcome to My Website</h2>
+            <p>I am CKHO, a student studying in Hong Kong</p>
+            <div class="contact-icons">
+                <a href="https://twitter.com/ckwasd"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:contact@ckho.xyz"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com/ckwasd"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/CKH0"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+	</div>
+</body>
+</html>
